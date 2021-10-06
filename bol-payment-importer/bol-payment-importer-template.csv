@@ -1,0 +1,4 @@
+Cr Account Name,Cr Account Number,Cr Branch Number,Cr Statement Reference,Dr Account Name,Dr Account Number,Dr Branch Number,Dr Statement Reference,Date,Amount,Pay Alert Type,Pay Alert Destination
+"""{{lastName}}, {{firstName}} - MERC""",{{mercantileAccountNumber}},{{mercantileBranchCode}},KRPT - {{dealRef}},KRPT (PTY) LTD,12341234,9999,BATCH {{batchId}} - {{dealRef}},{{date}},{{tradedCapital}},E,{{email}}
+"""{{lastName}}, {{firstName}} - PERS""",{{personalAccountNumber}},{{personalBranchCode}},KRPT - {{dealRef}},KRPT (PTY) LTD,12341234,9999,BATCH {{batchId}} - {{dealRef}},{{date}},{{netClientProfit}},E,{{email}}
+CRYPTO_PROVIDER,56785678,8888,ABCDABCD,KRPT (PTY) LTD,12341234,9999,BATCH {{batchId}} - {{dealRef}},{{date}},{{netClientProfit}},,
