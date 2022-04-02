@@ -1,4 +1,3 @@
-
 function dataExtraction(ticker,date)
 {
   ticker = encodeURI(ticker);
@@ -6,7 +5,7 @@ function dataExtraction(ticker,date)
     'method': 'GET',
     'contentType':'application/json',
     'headers':{
-    'x-api-key': "AAGaomgIaq5I1umz6VEzD8v0Y1C1FHfP5Et53ajd"
+    'x-api-key': "API_KEY" // you get it from your yahoo mail
     }
   };
   var response = UrlFetchApp.fetch("https://rest.yahoofinanceapi.com/v7/finance/options/"+ticker+"?date="+date,requestOptions);  
